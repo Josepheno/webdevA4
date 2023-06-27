@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" href="signupstyle.css"></link>
+	<style>
+	header {
+	  background-color: #ffbd59;
+	  padding: 50px 0;
+	  text-align: center;
+	}
+
+	nav {
+	  margin-left: 200px;
+	}
+
+	header a {
+	  color: white;
+	  text-decoration: none;
+	  font-weight: bold;
+	}
+
+	header a span {
+	  display: inline-block;
+	  padding: 20px 50px;
+	  background-color: black;
+	  border-radius: 50px;
+	  margin-left: 50px;
+	  transition: all 0.3s ease-in-out;
+	}
+
+	body {
+	  background-color: #ffed59;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	h1 {
+	  font-size: 40px;
+	  font-weight: bold;
+	  margin-top: 10px;
+	  text-align: center;
+	}
+
+	p {
+	  font-size: 30px;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<header>
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\whitecircle.png" alt="Logo" class="wc">
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Home/Page%201.html"> 
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\redpricetag.png" alt="Logo" class="rpt"> 
+			</a>
+		<nav>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Home/Page%201.html"><span>Home</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Products/Page%202.html"><span>Products</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/About%20us/Page%203.html"><span>About us</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Contact%20us/Page%204.html"><span>Contact us</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Sign%20up/Page%205.html"><span>Sign up</span></a>
+		</nav>
+	</header>
+	<div class="container">
+  <h1>Sign up for more deals <br>and offers!</h1>
+  <p>Enter your details below to be the FIRST to hear our LASTEST deals at Joseph's Bargain Bin!</p>
+  <form class="signup-form" method="post" action="submit-form.php">
+    <div class="form-group">
+      <label for="first-name" style="color: red;">First Name:</label>
+      <input type="text" id="first-name" name="first-name" style="width: 50%;" required>
+    </div>
+    <div class="form-group">
+      <label for="last-name" style="color: red;">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" style="width: 50%;" required>
+    </div>
+    <div class="form-group">
+      <label for="email" style="color: red;">Email:</label>
+      <input type="email" id="email" name="email" style="width: 50%;" required>
+    </div>
+    <button class="submit-button" type="submit">Submit</button>
+  </form>
+  <p style="text-align: center; color: red;">Sign up now!</p>
+</div>
+</body>
+</html>

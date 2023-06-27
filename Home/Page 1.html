@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html id="app">
+<head>
+	<title>Home</title> <!-- title of page -->
+	<link rel="stylesheet" href="homestyle.css"></link> <!-- linking css file -->
+	<style>
+	header {
+	  background-color: #ffbd59;
+	  padding: 50px 0;
+	  text-align: center;
+	}
+
+	nav {
+	  margin-left: 200px;
+	}
+
+	header a {
+	  color: white;
+	  text-decoration: none;
+	  font-weight: bold;
+	}
+
+	header a span {
+	  display: inline-block;
+	  padding: 20px 50px;
+	  background-color: black;
+	  border-radius: 50px;
+	  margin-left: 50px;
+	  transition: all 0.3s ease-in-out;
+	}
+
+	body {
+	  background-color: #ffed59;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	h1 {
+	  font-size: 70px;
+	  font-weight: bold;
+	  margin-top: 175px;
+	  text-align: center;
+	}
+
+	p {
+	  font-size: 30px;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+	
+	.footer {
+		font-size: 15px;
+		text-align: center;
+		margin-top: 200px;
+	}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+	<header> <!-- everything in this tag will be at the top of the page -->
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\whitecircle.png" alt="Logo" class="wc"> <!-- adding a regular image -->
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Home/Page%201.html"> <!-- adding a link to the home page so when you click on the
+																										rpt image then it takes you to that certain page-->
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\redpricetag.png" alt="Logo" class="rpt"> <!-- adding an image which takes you to
+																															the home page which we added above -->
+			</a>
+		<nav>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Home/Page%201.html"><span>Home</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Products/Page%202.html"><span>Products</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/About%20us/Page%203.html"><span>About us</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Contact%20us/Page%204.html"><span>Contact us</span></a>
+			<a href="file:///C:/Wintec/web%20dev/assignments/assessment%202/Sign%20up/Page%205.html"><span>Sign up</span></a>
+		</nav>
+	</header>
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\store.png" alt="Home images" class="store">
+				<img src="C:\Wintec\web dev\assignments\assessment 2\Images\cart.png" alt="Home images" class="cart">
+		<main> <!-- start of the main. this is the dominant part of the body tag -->
+		<h1>Joseph's Bargain Bin</h1>
+		<p>Value deals for everyone!</p>
+		</main> <!-- end of main -->
+	
+	<footer> <!-- start of footer. in this tag is where things that go at the bottom of the page -->
+		<p class="footer">&copy; 2023 Joseph's Bargain Bin</p>
+	</footer> <!-- end of footer -->
+</body>
+</html>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: "Hello, Vue.js!",
+    },
+  });
+</script>
+
